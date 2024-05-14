@@ -1,0 +1,117 @@
+﻿/*
+Author: Shree Dhar Acharya
+Student ID: 8899288
+Date: 30th September 2023
+Application: ShreeDhar_BookStore_9288
+*/
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 10px 50px 50px 50px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin-top:150px;
+
+}
+.welcome-user{
+    color:sandybrown;
+    font-size:20px;
+    font-weight:600;
+}
+.products {
+    padding: 50px 20px;
+}
+
+.product-details {
+    padding: 0px 20px;
+}
+.product-details .form-group{
+    width:100%;
+}
+.product-details select{
+    margin-top:10px;
+}
+.product-details-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-details-container .form-group{
+    padding:10px 0px;
+}
+
+.bottom-container{
+    display:flex;
+}
+.information{
+    flex:2;
+}
+
+.product-label {
+    font-weight: bold;
+    color: #333;
+    padding:10px 0px;
+
+}
+
+.product-dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.product-name {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.product-image-column {
+    padding-left: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-quantity {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.product-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #004040; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .product-button:hover {
+        background-color: #002626; 
+    }
+
+
+.text-danger{
+    color:red;
+}

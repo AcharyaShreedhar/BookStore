@@ -1,0 +1,118 @@
+﻿/*
+Author: Shree Dhar Acharya
+Student ID: 8899288
+Date: 30th September 2023
+Application: ShreeDhar_BookStore_9288
+*/
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 10px 50px 50px 50px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin-top: 150px;
+}
+
+/* Adds padding to the cart form */
+.cart-form {
+    padding: 20px;
+}
+
+/* Adds margin and padding to the listbox container */
+.listbox-container {
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+    /* Styles for the select element inside the listbox container */
+    .listbox-container select {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+        /* Styles for options inside the select element */
+        .listbox-container select option {
+            font-size: 20px;
+            font-weight: 600;
+            padding: 10px 0px;
+        }
+
+/* Defines a grid layout with specific column templates */
+.row {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+/* Styles for the right section, arranging items in a column */
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Adds margin to buttons in the right section */
+    .right .btn {
+        margin-top: 15px;
+    }
+
+/* Adds right padding to the cart display column */
+.cart-display-column {
+    padding-right: 15px;
+}
+
+/* Adds left padding to the cart edit buttons column */
+.cart-edit-buttons-column {
+    padding-left: 15px;
+}
+
+/* Adds margin at the bottom and sets width for form groups */
+.form-group {
+    margin-bottom: 15px;
+    width: 470px;
+}
+
+/* Defines common styles for buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #004040;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sets the background color for primary button */
+.btn-primary {
+    background-color: #004040;
+}
+
+/* Sets the background color for secondary button */
+.btn-secondary {
+    background-color: #008080;
+}
+
+/* Sets the background color for negative primary button */
+.btn-neg-primary {
+    background-color: #FFA500;
+}
+
+/* Sets the background color for negative secondary button */
+.btn-neg-secondary {
+    background-color: #FF0000;
+}
+
+/* Defines hover effect for buttons */
+.btn:hover {
+    background-color: #002626;
+}
+
+/* Sets the text color for elements with class 'text-info' */
+.text-info {
+    color: red;
+}
